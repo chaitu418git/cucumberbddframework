@@ -1,10 +1,13 @@
 package hooks;
 
+import org.apache.commons.mail.EmailException;
 import org.openqa.selenium.WebDriver;
 
 import context.TestContext;
 import factory.DriverFactory;
+import factory.SendEmail;
 import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import owner.Ownerclass;
@@ -29,6 +32,11 @@ public void after(Scenario scenario)
 {
 	System.out.println("AFTER: THREAD ID : "+Thread.currentThread().getId()+","+"SCENARIO NAME: "+scenario.getName());
 driver.quit();
+}
+@AfterAll
+public void afterAll(Scenario scenario) throws EmailException
+{
+	SendEmail.sendEmail();
 }
 
 }
