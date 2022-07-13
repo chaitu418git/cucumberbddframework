@@ -17,7 +17,7 @@ public static void sendEmail() throws EmailException
 	email.setSSLOnConnect(true);
 	email.setFrom("chaitanya@gmail.com");
 	email.setSubject("Selenium Test Report");
-	email.setMsg("This is a test mail from Selenium)");
+	email.setMsg(System.getProperty("user.dir")+ "/target/cucumber.html");
 	email.addTo("chaitu.090418@gmail.com");
 	email.send();
 	System.out.println("Test Done");
