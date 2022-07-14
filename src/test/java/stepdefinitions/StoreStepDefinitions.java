@@ -31,7 +31,7 @@ public class StoreStepDefinitions {
 	}
 	@And("I have a product in the cart")
 	public void i_have_a_product_in_the_cart() throws InterruptedException {
-	storePage.addToCart("Blue Shoes1");
+	storePage.addToCart("Blue Shoes");
 	}
 
 }
