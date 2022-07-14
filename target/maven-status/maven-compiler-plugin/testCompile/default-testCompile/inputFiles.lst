@@ -2,12 +2,15 @@ C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\stepdefinit
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\domainobjects\Product.java
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\customtype\CustomParameterType.java
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\customtype\CustomDataTableType.java
+C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\factory\DummyClass.java
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\factory\DriverFactory.java
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\hooks\MyHooks.java
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\pages\CartPage.java
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\runner\JUnitRunnerTest.java
+C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\factory\ZipTheFolder.java
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\pages\BasePage.java
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\pages\CheckOutPage.java
+C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\factory\SentEmail.java
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\context\TestContext.java
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\owner\Ownerclass.java
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\stepdefinitions\MyStepDefinitions.java
@@ -15,6 +18,7 @@ C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\pages\PageF
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\domainobjects\BillingDetails.java
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\stepdefinitions\CheckoutStepDefinitions.java
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\stepdefinitions\StoreStepDefinitions.java
+C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\factory\SendEmail.java
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\pages\StorePage.java
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\utils\FrameworkConfig.java
 C:\Users\chaitanya.buddi\eclipse-workspace\Cucumberbdd\src\test\java\stepdefinitions\CustomerStepDefinitions.java
