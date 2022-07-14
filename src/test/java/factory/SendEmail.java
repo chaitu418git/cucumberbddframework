@@ -13,7 +13,7 @@ public static void sendEmail() throws EmailException
 	Email email = new SimpleEmail();
 	email.setHostName("smtp.gmail.com");
 	email.setSmtpPort(465);
-	email.setAuthenticator(new DefaultAuthenticator("chaitanyabuddi123@gmail.com", "cnfpminvgzyzmcic"));
+	email.setAuthenticator(new DefaultAuthenticator("chaitanyabuddi123@gmail.com", "bvntopzvtusmsmln"));
 	email.setSSLOnConnect(true);
 	email.setFrom("chaitanya@gmail.com");
 	email.setSubject("Selenium Test Report");

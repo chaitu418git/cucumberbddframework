@@ -16,7 +16,7 @@ features = {".//Features/"},
         dryRun = false,
        monochrome = true,
      // plugin =  {"pretty","html:test-output"},
-plugin = {"message:target/cucumber-report.ndjson","pretty","html:target/cucumber.html","summary"},
+plugin = {"message:target/cucumber-report/cucumber-report.ndjson","pretty","html:target/cucumber.html","summary"},
 //snippets = CAMELCASE,
 tags = "@cart"
 )
