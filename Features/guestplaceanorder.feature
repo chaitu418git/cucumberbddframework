@@ -1,4 +1,4 @@
-@cart
+@guest
 Feature: Place an Order
 
 Scenario: Using default payment option

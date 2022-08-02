@@ -41,6 +41,7 @@ public void i_m_a_guest_customer() {
 	//driver=DriverFactory.getDriver();
 	//new StorePage(driver).load(Ownerclass.configLoader().baseUrl());
 	storePage.load(Ownerclass.configLoader().baseUrl());
+	//storePage.selectByVisibleText(storePage.text1, "");
 }
 
 }

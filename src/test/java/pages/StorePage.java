@@ -8,10 +8,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class StorePage extends BasePage{
 
-//	@FindBy(xpath = "//a[@title='View cart']")
-//	private WebElement viewCartLink;
+	@FindBy(xpath = "//a[@title='View cart']")
+	public WebElement text1;
 	 By viewCartLink=By.xpath("//a[@title='View cart']");
-	
+	 //WebElement text=driver.findElement(viewCartLink);
 	
 	public StorePage(WebDriver driver) {
 		super(driver);
@@ -23,6 +23,10 @@ public class StorePage extends BasePage{
 		 wait.until(ExpectedConditions.elementToBeClickable(addToCartBtn)).click();
 		 wait.until(ExpectedConditions.elementToBeClickable(viewCartLink)).click();
 		 
+	}
+	public void selectFieldValue()
+	{
+		//selectByVisibleText(text1, "");
 	}
 
 }

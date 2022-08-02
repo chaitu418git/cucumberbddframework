@@ -18,7 +18,7 @@ features = {".//Features/"},
      // plugin =  {"pretty","html:test-output"},
 plugin = {"message:target/cucumber-report/cucumber-report.json","pretty","html:target/cucumber-report/cucumber.html","summary"},
 //snippets = CAMELCASE,
-tags = "@cart"
+tags = "@guest"
 )
 public class JUnitRunnerTest {
 

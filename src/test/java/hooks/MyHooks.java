@@ -1,5 +1,7 @@
 package hooks;
 
+import java.net.MalformedURLException;
+
 import org.apache.commons.mail.EmailException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -8,6 +10,8 @@ import org.openqa.selenium.WebDriver;
 import context.TestContext;
 import factory.DriverFactory;
 import factory.SendEmail;
+import factory.SendEmail1;
+import factory.SendMailSSLWithAttachment;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
@@ -15,7 +19,7 @@ import io.cucumber.java.BeforeAll;
 import io.cucumber.java.Scenario;
 import owner.Ownerclass;
 
-
+import org.apache.commons.mail.*;
 public class MyHooks {
 private WebDriver driver;
 private final TestContext context;
@@ -45,9 +49,10 @@ public void after(Scenario scenario)
 driver.quit();
 }
 
-  @AfterAll public static void afterAll() throws EmailException 
+  @AfterAll public  static void afterAll() throws EmailException 
   {
-  SendEmail.sendEmail();
+	  new SendEmail1().sendEmail();
+	  
   }
   
 //  @BeforeAll public static void beforeAll() {

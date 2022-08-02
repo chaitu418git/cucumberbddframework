@@ -1,3 +1,4 @@
+pages\Common.class
 pages\BasePage.class
 factory\DummyClass.class
 customtype\CustomDataTableType.class
@@ -5,7 +6,12 @@ pages\CartPage.class
 domainobjects\Product.class
 factory\SendEmail.class
 factory\ZipTheFolder.class
+factory\SendMailSSLWithAttachment.class
 owner\Ownerclass.class
+testDelePack\ComMethods.class
+testDelePack\Test1.class
+testDelePack\WindowHandlingTest.class
+factory\SendEmail1.class
 stepdefinitions\MyStepDefinitions.class
 pages\CheckOutPage.class
 stepdefinitions\StoreStepDefinitions.class
@@ -19,7 +25,11 @@ hooks\MyHooks.class
 utils\FrameworkConfig.class
 customtype\CustomParameterType.class
 factory\SentEmail.class
+testDelePack\Sorting.class
+testDelePack\TestSortCaseManagement.class
 context\TestContext.class
 runner\JUnitRunnerTest.class
 domainobjects\BillingDetails.class
 pages\StorePage.class
+factory\SendMailSSLWithAttachment$1.class
+factory\TestExcception.class
