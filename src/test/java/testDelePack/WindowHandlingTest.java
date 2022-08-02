@@ -10,7 +10,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class WindowHandlingTest extends ComMethods{
 	public static WebDriver driver;
-	@Test
+	
 	public void test()
 	{
 		WebDriverManager.chromedriver().setup();

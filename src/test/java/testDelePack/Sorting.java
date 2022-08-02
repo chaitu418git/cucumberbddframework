@@ -16,7 +16,7 @@ import junit.framework.Assert;
 
 public class Sorting {
 	public static WebDriver driver;
-@Test
+
 public void sortTest()
 {
 	WebDriverManager.chromedriver().setup();

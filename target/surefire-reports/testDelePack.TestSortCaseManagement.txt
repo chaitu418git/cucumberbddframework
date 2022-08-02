@@ -1,19 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: testDelePack.TestSortCaseManagement
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 128.87 s <<< FAILURE! - in testDelePack.TestSortCaseManagement
-testDelePack.TestSortCaseManagement.testSort  Time elapsed: 128.87 s  <<< ERROR!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[text()='Create'] (tried for 40 second(s) with 500 milliseconds interval)
-	at testDelePack.TestSortCaseManagement.testSort(TestSortCaseManagement.java:43)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Create']"}
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 29.436 s <<< FAILURE! - in testDelePack.TestSortCaseManagement
+testDelePack.TestSortCaseManagement.testSort  Time elapsed: 29.436 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="mat-button-wrapper">...</span> is not clickable at point (1392, 170). Other element would receive the click: <app-aln-shared-spinner class="mat-progress-bar-all ng-tns-c12-2 ng-star-inserted" _nghost-hhr-c8="" ng-reflect-is-loading="true" ng-reflect-message="Loading ...">...</app-aln-shared-spinner>
   (Session info: chrome=103.0.5060.134)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'WSAP00X9', ip: '192.168.0.149', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2f41f29f9af58a195cebf3b08b85ebe5, findElement {using=xpath, value=//div[text()='Create']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\CHAITA~1.BUD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62475}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62475/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2f41f29f9af58a195cebf3b08b85ebe5
-	at testDelePack.TestSortCaseManagement.testSort(TestSortCaseManagement.java:43)
+Command: [f76849461335140eaa1d8b5c47e1fc9c, clickElement {id=17ddbd45-2321-4a57-aa87-99f6f874eecc}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\CHAITA~1.BUD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63032/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f76849461335140eaa1d8b5c47e1fc9c)] -> xpath: //span[text()='Case']]
+Session ID: f76849461335140eaa1d8b5c47e1fc9c
+	at testDelePack.TestSortCaseManagement.testSort(TestSortCaseManagement.java:48)
 

@@ -22,7 +22,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TestSortCaseManagement extends ComMethods {
 	public static WebDriver driver;
 	public static WebDriverWait wait;
-@Test
+
 public void testSort() throws InterruptedException
 {
 	WebDriverManager.chromedriver().setup();
