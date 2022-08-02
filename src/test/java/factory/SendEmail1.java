@@ -33,7 +33,7 @@ public class SendEmail1 {
 	  email.setSubject("Automation Status Report");
 	  email.addTo("chaitanyabuddi123@gmail.com");
 	  
-	  email.attach(new File("C:/Users/chaitanya.buddi/eclipse-workspace/Cucumberbdd/target/cucumber-report/cucumber.html"));
+	  email.attach(new File("C:/Users/chaitanya.buddi/eclipse-workspace/Cucumberbdd/target/cucumber.html"));
 	  // embed the image and get the content id
 	 /* URL url = new URL("http://www.apache.org/images/asf_logo_wide.gif");
 	  String cid = email.embed(url, "Apache logo");
